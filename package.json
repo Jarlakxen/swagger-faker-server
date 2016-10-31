@@ -22,9 +22,6 @@
     "Fernando Pasik <fernando.pasik@avenida.com>",
     "Facundo Viale <facundo.viale@avenida.com>"
   ],
-  "publishConfig": {
-    "registry": "http://delivery-01.ops.avenida.com:8083/repository/internal-npm/"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Avenida/swagger-faker-server.git"
