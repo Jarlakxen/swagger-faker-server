@@ -1,6 +1,6 @@
 {
   "name": "swagger-faker-server",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Swagger server with Faker integration from CLI",
   "keywords": [
     "swagger",
