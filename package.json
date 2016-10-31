@@ -1,0 +1,46 @@
+{
+  "name": "swagger-faker-server",
+  "version": "1.0",
+  "description": "Swagger server with Faker integration from CLI",
+  "keywords": [
+    "swagger",
+    "rest",
+    "api",
+    "yaml",
+    "parse",
+    "parser",
+    "faker",
+    "serve",
+    "server",
+    "host"
+  ],
+  "homepage": "https://github.com/Avenida/swagger-faker-server",
+  "bugs": "https://github.com/Avenida/swagger-faker-server/issues",
+  "license": "Apache-2.0",
+  "author": "Facundo Viale",
+  "contributors": [
+    "Fernando Pasik <fernando.pasik@avenida.com>",
+    "Facundo Viale <facundo.viale@avenida.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Avenida/swagger-faker-server.git"
+  },
+  "bin": {
+    "swagger-faker-server": "server.js"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "4.14.0",
+    "faker": "3.1.0",
+    "json-schema-faker": "0.3.6",
+    "minimist": "1.2.0",
+    "swagger-parser": "3.4.1",
+    "swagger-tools": "0.10.1"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
+  }
+}
