@@ -27,7 +27,7 @@
     "url": "git@github.com:Avenida/swagger-faker-server.git"
   },
   "bin": {
-    "swagger-faker-server": "server.js"
+    "swagger-faker-server": "bin/swagger-faker-server.js"
   },
   "main": "server.js",
   "dependencies": {
